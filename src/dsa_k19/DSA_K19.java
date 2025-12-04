@@ -5,6 +5,7 @@
 package dsa_k19;
 
 import java.util.Calendar;
+import java.util.Scanner;
 
 /**
  *
@@ -16,6 +17,7 @@ public class DSA_K19 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner sc;
         System.out.print("Hello World");
         int[] arr = {10, 5, 7, 20, 100, 
                     2, 11, 15, 1, 200,
