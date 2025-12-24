@@ -24,7 +24,7 @@ public class DemoArray {
         ("newArray[%d] = %d\n", i, newArr[i]);
         }
     }
-    
+    //Big-O: O(n)
     static int[] themDau(int a[], int key){
         int oldSize = a.length;
         int newArray[] = new int[oldSize+1];
