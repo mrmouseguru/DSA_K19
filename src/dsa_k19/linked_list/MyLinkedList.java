@@ -30,6 +30,16 @@ public class MyLinkedList {
         }
     }
     
-    
+    void addFirst(int value){
+        //code
+        //tạo nút mới
+        Node current = head;//12
+        Node nutNew = new Node(value);//15
+        head = nutNew;
+        head.next = current;
+        
+        
+        
+    }
     
 }

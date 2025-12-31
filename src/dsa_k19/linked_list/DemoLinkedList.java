@@ -28,6 +28,8 @@ public class DemoLinkedList {
         nut99.next = nut37;
         dslk.tail = nut37;
         
+        dslk.addFirst(15);
+        
         dslk.printLinkedList();
     }
     
