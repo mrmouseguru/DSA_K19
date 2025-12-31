@@ -20,8 +20,15 @@ public class DemoLinkedList {
         dslk.size++;
         //nút 99
         Node nut99 = new Node(99);
+        nut12.next = nut99;//nút 12 liên kết đến nút 99
+        dslk.tail = nut99;
         
+        //thêm nút 37
+        Node nut37 = new Node(37);
+        nut99.next = nut37;
+        dslk.tail = nut37;
         
+        dslk.printLinkedList();
     }
     
 }
