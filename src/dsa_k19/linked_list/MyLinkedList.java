@@ -37,9 +37,37 @@ public class MyLinkedList {
         Node nutNew = new Node(value);//15
         head = nutNew;
         head.next = current;
+        size++;
         
         
         
+    }
+    //Big-O???
+    void addLast(int value){
+        //sinh viên code
+        Node nodeNew = new Node(value);
+        tail.next = nodeNew;
+        tail = nodeNew;
+        size++;
+    }
+    
+    void addMid(int value)
+    {
+        
+    }
+    
+    void removeFirst()
+    {
+        
+    }
+    
+    void removeLast()
+    {
+        
+    }
+    
+    void removeMid()
+    {
     }
     
 }
